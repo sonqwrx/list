@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body{
+	background-color: #F2FC78;
+}
+p{
+	text-align: center;
+	font-size: 50px;
+	color: #A03BCD;
+	text-shadow: 0px 0px 30px #CA7BEE;
+	font-family: 'Ubuntu', sans-serif;
+}
+li{
+	font-size: 30px;
+	color:#219513 ;
+	text-shadow: 0px 0px 20px #7DCD73 ;
+
+
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 🤍	 💜 💚	 💙 💛	 🖤	 🤎	 💗	 🧡 💖;
+  suffix: " ";
+}
+ul.l1{
+  list-style: circled-digits;
+}
+@counter-style circled-digits2 {
+  system: cyclic;
+  symbols: а б в г ґ д е є ж з и і ї й к л м н о п р с т у ф х ц ч ш щ ю я;
+  suffix: " ";
+}
+ul.l2{
+	list-style: circled-digits2;
+}
+@counter-style circled-digits3 {
+  system: cyclic;
+  symbols: А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ю Я;
+  suffix: " ";
+  }
+  ul.l3{
+  	list-style: circled-digits3 ;
+  }
+  .l1{
+  	font-family: 'Merriweather', serif;
+  }
+  .l2{
+  	font-family: 'Merriweather', serif;
+  }
+  .l3{
+  	font-family: 'Merriweather', serif;
+  }
